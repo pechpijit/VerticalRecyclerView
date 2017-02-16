@@ -7,15 +7,12 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.sourceandroid.verticalrecyclerview.R;
 import com.example.sourceandroid.verticalrecyclerview.models.SectionDataModel;
 import com.github.rubensousa.gravitysnaphelper.GravitySnapHelper;
@@ -120,7 +117,7 @@ public class RecyclerViewDataAdapter extends RecyclerView.Adapter<RecyclerViewDa
 
             this.itemTitle = (TextView) view.findViewById(R.id.itemTitle);
             this.recycler_view_list = (RecyclerView) view.findViewById(R.id.recycler_view_list);
-            this.btnMore= (Button) view.findViewById(R.id.btnMore);
+            this.btnMore= (Button) view.findViewById(R.id.buttonUpload);
             snapHelper = new GravitySnapHelper(Gravity.START);
 
 

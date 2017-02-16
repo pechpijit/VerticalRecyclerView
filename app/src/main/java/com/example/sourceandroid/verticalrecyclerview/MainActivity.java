@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        new UploaderHck(MainActivity.this);
 
         allSampleData = new ArrayList<SectionDataModel>();
 
